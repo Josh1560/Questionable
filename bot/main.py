@@ -39,12 +39,12 @@ bot.remove_command("help")
 
 #Error handling
 @bot.event
-async def on_command_error(ctx, exception):
-    if isinstance(exception, commands.MissingPermissions):
+async def on_command_error(ctx, error):
+    if isinstance(error, commands.MissingPermissions):
         await reply(ctx, "You must be a server admin to do that! :warning:")
-    elif isinstance(exception, commands.CheckFailure):
+    elif isinstance(error, commands.CheckFailure):
         pass
-    elif isinstance(exception, commands.CommandNotFound):
+    elif isinstance(error, commands.CommandNotFound):
         pass
     else:
         print(error)
