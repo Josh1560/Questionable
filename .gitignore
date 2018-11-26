@@ -1,0 +1,8 @@
+run.bat
+logs.bat
+node_modules/
+bot/extensions/template
+bot/extensions/__pycache__
+
+~analytics/
+~postgres/

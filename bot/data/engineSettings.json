@@ -1,0 +1,26 @@
+{
+  "duckduckgo": {
+    "name": "DuckDuckGo",
+    "queryURL": "https://duckduckgo.com/html/?q=",
+    "selection": ".links_main .result__title a",
+    "prefixUrl": "https://duckduckgo.com"
+  },
+  "bing": {
+    "name": "Bing",
+    "queryURL": "https://www.bing.com/search?q=",
+    "selection": ".b_algo h2 a",
+    "prefixUrl": ""
+  },
+  "yahoo": {
+    "name": "Yahoo",
+    "queryURL": "https://search.yahoo.com/search?p=",
+    "selection": ".title a",
+    "prefixUrl": ""
+  },
+  "ask": {
+    "name": "Ask.com",
+    "queryURL": "https://www.ask.com/web?q=",
+    "selection": ".PartialSearchResults-item-title a",
+    "prefixUrl": ""
+  }
+}

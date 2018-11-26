@@ -1,0 +1,15 @@
+{
+  "name": "questionable-bot",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node website/server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "author": "Joshua Vaughan",
+  "license": "MIT",
+  "description": "A Discord bot that searches the internet for you.",
+  "main": "website/server.js",
+  "devDependencies": {}
+}
